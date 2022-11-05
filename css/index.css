@@ -1,0 +1,49 @@
+/* Removing :default styling */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: #1f2937; */
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* creating a container to restrict the page from taking the full size of the page  */
+.container{
+    /* outline: 2px solid blue; */
+    margin: 0px auto;
+    width:70%;
+    max-width: 90%;
+
+}
+/* "creating utility classes" */
+.d-flex{
+    display: flex;
+}
+header{
+    padding: 1rem 0px;
+    background-color: #1f2937;
+    
+}
+header h1{
+    font-size: 1.5rem;
+    color: #f9fAf8;
+}
+header ul li a{
+    color:#E5E7Eb;
+    font-size: 1.2rem;
+}
+nav{
+    align-items: center;
+    
+    justify-content: space-between;
+}
+ul{
+    gap:10px;
+
+}
