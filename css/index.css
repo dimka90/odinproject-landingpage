@@ -4,14 +4,56 @@
     margin: 0px;
     box-sizing: border-box;
 }
+.bg-dark{
+    background-color: #1f2937;
+}
+.bg-white{
+    background-color: white;
+    /* outline:2px solid purple; */
+
+}
+.bg-white{
+    background-color: white;
+
+}
+.big{
+    padding: 3rem 0px;;
+}
+
+.bg-blue{
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding:1rem 3rem;
+    border-radius: 5px;
+   
+}
+.btn-secondary{
+    border: none;
+    background-color: #3882f6;
+    color: white;
+    outline: 2px solid white;
+    padding: 0.5rem  1rem;
+    border-radius: 5px;
+    
+    background-color: ;
+}
+.bg-child{
+    
+}
 body{
-    /* background-color: #1f2937; */
+    background-color: #1f2937;
 }
 li{
     list-style: none;
 }
 a{
     text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 100%;
 }
 /* creating a container to restrict the page from taking the full size of the page  */
 .container{
@@ -46,4 +88,112 @@ nav{
 ul{
     gap:10px;
 
+}
+.hero{
+    margin-top: 3rem; 
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+.col1,
+.col2{
+width:45%;
+}
+.hero h1{
+    font-size: 2rem;
+    color:#E5E7Eb;
+}
+.hero p{
+    /* font-size: 3rem; */
+    color:#E5E7Eb;
+    color:#E5E7Eb;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+.btn-primary{
+    border: none;
+    background-color:#3882f9;
+    color:white;
+    margin-top: 20px;
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+}
+/* stying card section */
+.card-section{
+    color:white;
+    padding:2rem 0px;
+    
+}
+.card-section h2{
+color:black;
+text-align: center;
+padding:2rem 0px;
+}
+.img-card{
+    justify-content: space-between;
+}
+.img-p{
+    padding:1rem 0px;
+    color:black
+}
+.name{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 600;
+}
+.row{
+    width:22%;
+    height: 50;
+    border-radius:20px;
+    /* outline: 2px solid orange; */
+
+}
+.row img{
+    border-radius:10px;
+
+   
+}
+.mg{
+    margin-bottom: 3rem;
+}
+.bg-gray{
+    font-style: italic;
+    background-color: #E5E7Eb;
+    padding:3rem 3rem;
+    /* outline: 2px solid green; */
+    font-size: 2.2rem;
+}
+.footer{
+    justify-content: center;
+    padding: 2rem 0px;
+    color:white;
+    font-size: 1.2rem;
+}
+@media (max-width:35rem) {
+    
+    .hero{
+        flex-direction: column;
+        width:90%;
+    }
+    .col1{
+        width:100%;
+        text-align: justify;
+        
+    }
+    .col2{
+        margin-top: 1rem;
+        width:100%;
+    }
+    .img-card{
+        flex-direction: column;
+    }
+    .row{
+        width:100%;
+    }
+    .bg-blue{
+        flex-direction: column;
+    }
+    .btn-secondary{
+        margin-top: 1rem;
+    }
 }
