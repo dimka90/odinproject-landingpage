@@ -196,4 +196,21 @@ padding:2rem 0px;
     .btn-secondary{
         margin-top: 1rem;
     }
+    .links,
+    nav{
+        flex-direction: column;
+    }
+    nav h1{
+        display: none;
+    }
+    .links{
+        margin-top: 1rem;
+        gap:10;
+    }
+    .center{
+        text-align: center;
+        
+    }
+
+   
 }
